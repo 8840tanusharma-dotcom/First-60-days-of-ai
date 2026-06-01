@@ -1,0 +1,218 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+.wrap{font-family:'Space Grotesk',var(--font-sans);padding:1.5rem;max-width:680px}
+.cin-portrait{width:100%;border-radius:16px;overflow:hidden;margin-bottom:1.25rem;background:#07080f}
+.cp-inner{padding:2rem 2rem 1.5rem;position:relative}
+.cp-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:1rem}
+.cp-stat{background:rgba(255,255,255,0.06);border-radius:10px;padding:10px;text-align:center}
+.cp-val{font-size:13px;font-weight:700;color:#c4b5fd;display:block}
+.cp-lbl{font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:.07em}
+.ai-title-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(127,119,221,0.18);border:0.5px solid rgba(127,119,221,0.4);border-radius:20px;padding:4px 14px;font-size:11px;font-weight:500;color:#c4b5fd;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.75rem}
+.ai-hero-name{font-size:30px;font-weight:700;color:#fff;line-height:1.1;margin-bottom:.25rem}
+.ai-hero-sub{font-size:13px;color:rgba(255,255,255,0.45);line-height:1.5}
+.cin-char{font-size:12px;color:rgba(255,255,255,0.6);line-height:1.7;margin-top:1rem;padding-top:1rem;border-top:0.5px solid rgba(255,255,255,0.08)}
+.cin-char em{color:#a78bfa;font-style:normal}
+.section{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:14px;padding:1.25rem 1.5rem;margin-bottom:1rem}
+.sec-lbl{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:.75rem}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.bar-label{font-size:12px;color:var(--color-text-secondary);min-width:110px}
+.bar-track{flex:1;height:5px;background:var(--color-background-secondary);border-radius:4px;overflow:hidden}
+.bar-fill{height:100%;border-radius:4px}
+.bar-val{font-size:11px;color:var(--color-text-tertiary);min-width:28px;text-align:right}
+.tag-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:.75rem}
+.tag{display:inline-block;padding:4px 11px;border-radius:20px;font-size:11px;font-weight:500}
+.tag-p{background:#EEEDFE;color:#534AB7}
+.tag-t{background:#E1F5EE;color:#0F6E56}
+.tag-a{background:#FAEEDA;color:#854F0B}
+.tag-b{background:#E6F1FB;color:#185FA5}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:.5rem}
+.mini-card{background:var(--color-background-secondary);border-radius:10px;padding:12px 14px}
+.mini-title{font-size:12px;font-weight:500;margin-bottom:4px}
+.mini-body{font-size:11px;color:var(--color-text-secondary);line-height:1.5}
+.verdict-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.verdict-row:last-child{border-bottom:none}
+.vr-icon{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}
+.vr-text{font-size:13px;color:var(--color-text-primary);line-height:1.5}
+.vr-sub{font-size:11px;color:var(--color-text-secondary)}
+.career-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:.5rem}
+.career-item{background:var(--color-background-secondary);border-radius:10px;padding:10px 12px;display:flex;align-items:flex-start;gap:8px}
+.ci-icon{width:26px;height:26px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0}
+.ci-name{font-size:12px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.ci-why{font-size:11px;color:var(--color-text-secondary);line-height:1.4}
+.improve-list{list-style:none;padding:0;margin:.5rem 0 0}
+.improve-list li{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:13px;color:var(--color-text-primary);line-height:1.5}
+.improve-list li:last-child{border-bottom:none}
+.imp-num{font-size:11px;font-weight:700;color:#7F77DD;min-width:18px;padding-top:1px}
+.footer{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:1.25rem;font-size:11px;color:var(--color-text-tertiary)}
+.fdot{width:3px;height:3px;border-radius:50%;background:var(--color-border-secondary)}
+</style>
+
+<div class="wrap">
+<h2 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Deep AI personality profile for Tanu — disciplined coder on the path to software engineering</h2>
+
+<div class="cin-portrait">
+  <svg width="100%" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg">
+    <title>Cinematic AI portrait of Tanu</title>
+    <desc>Futuristic dark workspace with holographic code representing Tanu, a Gen-Z software engineer with disciplined builder energy</desc>
+    <rect width="680" height="340" fill="#0a0c1a"/>
+    <rect x="380" y="0" width="300" height="340" fill="#0d0f22"/>
+    <line x1="380" y1="0" x2="380" y2="340" stroke="#7F77DD" stroke-width="0.5" opacity="0.3"/>
+    <rect x="400" y="30" width="260" height="130" rx="6" fill="#0f1228" stroke="#185FA5" stroke-width="0.5" opacity="0.8"/>
+    <text x="415" y="52" fill="#378ADD" font-size="9" font-family="monospace" opacity="0.9">const engineer = new Tanu();</text>
+    <text x="415" y="68" fill="#7F77DD" font-size="9" font-family="monospace" opacity="0.9">engineer.skills = ['code','ai','build']</text>
+    <text x="415" y="84" fill="#378ADD" font-size="9" font-family="monospace" opacity="0.9">while(true) { engineer.learn(); }</text>
+    <text x="415" y="100" fill="#5DCAA5" font-size="9" font-family="monospace" opacity="0.9">// discipline overrides motivation</text>
+    <text x="415" y="116" fill="#7F77DD" font-size="9" font-family="monospace" opacity="0.9">if(consistent) { dreams.compile(); }</text>
+    <text x="415" y="132" fill="#378ADD" font-size="9" font-family="monospace" opacity="0.8">engineer.goal = 'SoftwareEngineer';</text>
+    <text x="415" y="148" fill="#5DCAA5" font-size="9" font-family="monospace" opacity="0.7">// 60-day transformation arc...</text>
+    <rect x="400" y="175" width="120" height="60" rx="6" fill="#0f1228" stroke="#0F6E56" stroke-width="0.5" opacity="0.8"/>
+    <text x="412" y="195" fill="#5DCAA5" font-size="8" font-family="monospace">consistency: 94%</text>
+    <text x="412" y="209" fill="#5DCAA5" font-size="8" font-family="monospace">focus_depth: HIGH</text>
+    <text x="412" y="223" fill="#5DCAA5" font-size="8" font-family="monospace">mode: BUILDER</text>
+    <rect x="535" y="175" width="125" height="60" rx="6" fill="#0f1228" stroke="#534AB7" stroke-width="0.5" opacity="0.8"/>
+    <text x="547" y="195" fill="#AFA9EC" font-size="8" font-family="monospace">AI_user_type: BUILDER</text>
+    <text x="547" y="209" fill="#AFA9EC" font-size="8" font-family="monospace">age: 21 · loc: IND</text>
+    <text x="547" y="223" fill="#AFA9EC" font-size="8" font-family="monospace">arc: v1 → engineer</text>
+    <rect x="400" y="252" width="260" height="60" rx="6" fill="#0f1228" stroke="#185FA5" stroke-width="0.5" opacity="0.6"/>
+    <text x="415" y="272" fill="#85B7EB" font-size="8" font-family="monospace" opacity="0.8">SKILL MATRIX ··· code:▓▓▓▓▓▓▓▓░░ 82%</text>
+    <text x="415" y="288" fill="#85B7EB" font-size="8" font-family="monospace" opacity="0.8">AI LEVERAGE ···· ai: ▓▓▓▓▓▓░░░░ 65%</text>
+    <text x="415" y="304" fill="#85B7EB" font-size="8" font-family="monospace" opacity="0.8">DISCIPLINE ····· disc:▓▓▓▓▓▓▓▓▓░ 92%</text>
+    <ellipse cx="190" cy="155" rx="120" ry="155" fill="#12132a" opacity="0.9"/>
+    <ellipse cx="190" cy="100" rx="52" ry="58" fill="#1e1f3a"/>
+    <ellipse cx="190" cy="100" rx="48" ry="54" fill="#232440"/>
+    <ellipse cx="175" cy="92" rx="7" ry="9" fill="#2a2b50"/>
+    <ellipse cx="205" cy="92" rx="7" ry="9" fill="#2a2b50"/>
+    <ellipse cx="175" cy="92" rx="4" ry="5" fill="#7F77DD" opacity="0.9"/>
+    <ellipse cx="205" cy="92" rx="4" ry="5" fill="#7F77DD" opacity="0.9"/>
+    <ellipse cx="175" cy="92" rx="2" ry="2.5" fill="#c4b5fd"/>
+    <ellipse cx="205" cy="92" rx="2" ry="2.5" fill="#c4b5fd"/>
+    <path d="M178 112 Q190 118 202 112" stroke="#AFA9EC" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <rect x="160" y="55" width="60" height="8" rx="4" fill="#1a1b3a"/>
+    <rect x="130" y="58" width="30" height="4" rx="2" fill="#1a1b3a"/>
+    <rect x="220" y="58" width="30" height="4" rx="2" fill="#1a1b3a"/>
+    <rect x="155" y="150" width="70" height="100" rx="8" fill="#1a1b35"/>
+    <rect x="135" y="155" width="20" height="80" rx="4" fill="#1a1b35"/>
+    <rect x="225" y="155" width="20" height="80" rx="4" fill="#1a1b35"/>
+    <rect x="100" y="235" width="180" height="70" rx="6" fill="#131425"/>
+    <line x1="60" y1="300" x2="340" y2="300" stroke="#7F77DD" stroke-width="0.3" opacity="0.15"/>
+    <rect x="60" y="300" width="260" height="28" rx="4" fill="#0d0f22"/>
+    <text x="72" y="318" fill="#7F77DD" font-size="10" font-family="monospace" opacity="0.7">Tanu · Software Engineer Arc · India</text>
+    <rect x="60" y="305" width="3" height="16" rx="1" fill="#7F77DD" opacity="0.6"/>
+  </svg>
+
+  <div class="cp-inner">
+    <div class="ai-title-badge"><i class="ti ti-terminal-2" aria-hidden="true" style="font-size:12px"></i> AI Identity · Classified</div>
+    <p class="ai-hero-name">Tanu<br><span style="color:#7F77DD;font-size:18px">The Disciplined Architect</span></p>
+    <p class="ai-hero-sub">Gen-Z software engineer · AI-augmented builder · Prayagraj, India</p>
+    <div class="cp-grid">
+      <div class="cp-stat"><span class="cp-val">Builder</span><span class="cp-lbl">AI type</span></div>
+      <div class="cp-stat"><span class="cp-val">Systems</span><span class="cp-lbl">Thinking mode</span></div>
+      <div class="cp-stat"><span class="cp-val">Deep focus</span><span class="cp-lbl">Work style</span></div>
+    </div>
+    <p class="cin-char">A 21-year-old from Prayagraj who moves with <em>quiet intensity</em> — the kind that builds things while others talk about building. She uses AI not for shortcuts, but as a <em>force multiplier</em> on already-disciplined work. Her screen glows past midnight, but it's not hustle culture — it's <em>calculated construction</em>. The future she wants, she's compiling one commit at a time.</p>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">AI working style · how Tanu uses AI</p>
+  <div class="bar-row"><span class="bar-label">Prompt precision</span><div class="bar-track"><div class="bar-fill" style="width:78%;background:#7F77DD"></div></div><span class="bar-val">78%</span></div>
+  <div class="bar-row"><span class="bar-label">Goal-driven queries</span><div class="bar-track"><div class="bar-fill" style="width:88%;background:#1D9E75"></div></div><span class="bar-val">88%</span></div>
+  <div class="bar-row"><span class="bar-label">Identity-building use</span><div class="bar-track"><div class="bar-fill" style="width:92%;background:#378ADD"></div></div><span class="bar-val">92%</span></div>
+  <div class="bar-row"><span class="bar-label">Exploration/curiosity</span><div class="bar-track"><div class="bar-fill" style="width:65%;background:#EF9F27"></div></div><span class="bar-val">65%</span></div>
+  <div class="tag-row">
+    <span class="tag tag-p">Output-focused</span>
+    <span class="tag tag-t">Self-directed</span>
+    <span class="tag tag-b">Career-driven</span>
+    <span class="tag tag-a">Branding-aware</span>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">Strengths and weaknesses</p>
+  <div class="two-col">
+    <div class="mini-card">
+      <p class="mini-title" style="color:#0F6E56"><i class="ti ti-arrow-up-right" aria-hidden="true" style="font-size:13px;margin-right:4px"></i>Strengths</p>
+      <p class="mini-body">Relentless consistency. Thinks in systems. Clear on the destination. Not easily distracted. Translates ambition into daily action.</p>
+    </div>
+    <div class="mini-card">
+      <p class="mini-title" style="color:#993C1D"><i class="ti ti-arrow-down-right" aria-hidden="true" style="font-size:13px;margin-right:4px"></i>Weaknesses</p>
+      <p class="mini-body">May over-plan before executing. Wants external validation before testing ideas. Curiosity sometimes stays surface-level.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">AI user type</p>
+  <div class="verdict-row">
+    <div class="vr-icon" style="background:#EEEDFE"><i class="ti ti-hammer" aria-hidden="true" style="color:#534AB7"></i></div>
+    <div><p class="vr-text">The Identity Builder</p><p class="vr-sub">Uses AI to construct a future self — profiles, roadmaps, career paths. Every prompt is a brick in a larger architecture.</p></div>
+  </div>
+  <div class="verdict-row">
+    <div class="vr-icon" style="background:#E1F5EE"><i class="ti ti-route" aria-hidden="true" style="color:#0F6E56"></i></div>
+    <div><p class="vr-text">The Strategic Planner</p><p class="vr-sub">Doesn't freestyle — asks AI for structured paths, timelines, and frameworks. Precision over quantity.</p></div>
+  </div>
+  <div class="verdict-row">
+    <div class="vr-icon" style="background:#E6F1FB"><i class="ti ti-code" aria-hidden="true" style="color:#185FA5"></i></div>
+    <div><p class="vr-text">The Engineer-in-Training</p><p class="vr-sub">Coding-first mindset. Uses AI as a pair programmer and career coach simultaneously.</p></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">Best future career paths</p>
+  <div class="career-grid">
+    <div class="career-item"><div class="ci-icon" style="background:#EEEDFE"><i class="ti ti-cpu" aria-hidden="true" style="color:#534AB7;font-size:13px"></i></div><div><p class="ci-name">AI/ML Engineer</p><p class="ci-why">Disciplined learning + coding = perfect fit for model pipelines</p></div></div>
+    <div class="career-item"><div class="ci-icon" style="background:#E1F5EE"><i class="ti ti-device-desktop-code" aria-hidden="true" style="color:#0F6E56;font-size:13px"></i></div><div><p class="ci-name">Software Engineer</p><p class="ci-why">Primary goal — consistency makes it a matter of when, not if</p></div></div>
+    <div class="career-item"><div class="ci-icon" style="background:#FAEEDA"><i class="ti ti-rocket" aria-hidden="true" style="color:#854F0B;font-size:13px"></i></div><div><p class="ci-name">Indie Developer</p><p class="ci-why">Builder identity + AI tools = solo product shipped to market</p></div></div>
+    <div class="career-item"><div class="ci-icon" style="background:#E6F1FB"><i class="ti ti-school" aria-hidden="true" style="color:#185FA5;font-size:13px"></i></div><div><p class="ci-name">Tech Content Creator</p><p class="ci-why">Profile-building instinct → documenting the journey publicly</p></div></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">Learning and decision-making style</p>
+  <div class="two-col">
+    <div class="mini-card">
+      <p class="mini-title">Learning mode</p>
+      <p class="mini-body">Structured and sequential. Needs a clear map before diving. Prefers frameworks over random tutorials. Learns best by building real things.</p>
+    </div>
+    <div class="mini-card">
+      <p class="mini-title">Decision mode</p>
+      <p class="mini-body">Research-first, then commit fully. Hates ambiguity mid-execution. Once a path is chosen — locks in and executes without looking back.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">What makes Tanu different</p>
+  <div class="verdict-row">
+    <div class="vr-icon" style="background:#EEEDFE"><i class="ti ti-star" aria-hidden="true" style="color:#534AB7"></i></div>
+    <div><p class="vr-text">Most AI users consume. Tanu builds.</p><p class="vr-sub">She's using AI to construct an identity, a career, and a body of work — not just to get answers.</p></div>
+  </div>
+  <div class="verdict-row">
+    <div class="vr-icon" style="background:#E1F5EE"><i class="ti ti-shield" aria-hidden="true" style="color:#0F6E56"></i></div>
+    <div><p class="vr-text">Discipline is her moat.</p><p class="vr-sub">At 21, consistency is rare. Most people the same age optimize for motivation. Tanu has already chosen systems.</p></div>
+  </div>
+  <div class="verdict-row">
+    <div class="vr-icon" style="background:#FAEEDA"><i class="ti ti-map" aria-hidden="true" style="color:#854F0B"></i></div>
+    <div><p class="vr-text">She thinks in trajectories, not moments.</p><p class="vr-sub">Every prompt is part of a larger plan — not a one-off curiosity. That's elite-level intentionality.</p></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="sec-lbl">What to improve to go elite with AI</p>
+  <ul class="improve-list">
+    <li><span class="imp-num">01</span>Write prompts that output deployable artifacts — not just inspiration. Move from "give me a profile" to "give me code I can ship."</li>
+    <li><span class="imp-num">02</span>Use AI for real debugging and project review — not just planning and branding.</li>
+    <li><span class="imp-num">03</span>Build in public. Document the 60-day arc online. The internet rewards consistency it can watch.</li>
+    <li><span class="imp-num">04</span>Chain AI tools together — Claude for thinking, Cursor for coding, Perplexity for research. Tool-stacking = 10x output.</li>
+    <li><span class="imp-num">05</span>Stop consuming AI profiles. Start using AI to ship a first real product.</li>
+  </ul>
+</div>
+
+<div class="footer">
+  <span>Tanu</span><span class="fdot"></span>
+  <span>The Disciplined Architect</span><span class="fdot"></span>
+  <span>Software Engineer in progress · India</span>
+</div>
+</div>
